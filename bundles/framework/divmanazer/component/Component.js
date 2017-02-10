@@ -185,13 +185,7 @@ Oskari.clazz.define('Oskari.userinterface.component.Component',
          */
         _setVisibleImpl: function (visible) {
             'use strict';
-            this._element.visible = visible;
-            this._visible = visible;
-            if(visible) {
-                jQuery(this.getElement()).css("display", "block");
-            } else {
-                jQuery(this.getElement()).css("display", "none");
-            }
+            return undefined;
         },
 
         /**
